@@ -1,5 +1,5 @@
-# LogicLike Test App
+# Mindbox Test App
 
-- yarn
-- yarn dev
+- npm i
+- npm run dev
 
