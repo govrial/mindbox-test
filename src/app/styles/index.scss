@@ -1,0 +1,57 @@
+@import "reset";
+
+:root {
+  color: var(--text-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  touch-action: pan-x pan-y;
+}
+
+.content-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  padding: 24px;
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 264px auto;
+  column-gap: 24px;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--font-line-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-line-h2);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--font-line-h3);
+}
+
+a,
+span,
+p {
+  font-size: var(--font-size-text);
+  line-height: var(--font-line-text);
+}
+
+
